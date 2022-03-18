@@ -3,10 +3,10 @@ etiquetaBoton.addEventListener("click",escuchar);
 function escuchar(event){
     event.preventDefault()
     console.log("hizo click")
-    let pelicula=document.getElementById("Pelicula").value
+    let pelicula=document.getElementById("pelicula").value
     console.log(pelicula)
-    let cantidad=document.getElementById("Cantidad").value
+    let cantidad=document.getElementById("cantidad").value
     console.log(cantidad)
-    let asiento=document.getElementById("Asiento").value
+    let asiento=document.getElementById("asiento").value
     console.log(asiento)
 }

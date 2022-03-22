@@ -9,4 +9,6 @@ function escuchar(event){
     console.log(cantidad)
     let asiento=document.getElementById("asiento").value
     console.log(asiento)
+    let subtotal=asiento*cantidad
+    alert("su total a pagar es de $"+subtotal)
 }
